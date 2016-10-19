@@ -65,7 +65,7 @@ All files |       50 |        0 |        0 |       50 |                |
 
 ### Running this yourself
 
-To get the "before" result - clone, run `npm install` (or `yarn`), and run `npm run test-cov` to get the "before" result.
+To get the "before" result - clone, run `npm install` (or `yarn`), and run `npm run test-cov`.
 
 To get the "after result", do all of the above, and additionally:
 
