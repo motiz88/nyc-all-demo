@@ -67,7 +67,7 @@ All files |       50 |        0 |        0 |       50 |                |
 
 To get the "before" result - clone, run `npm install` (or `yarn`), and run `npm run test-cov`.
 
-To get the "after result", do all of the above, and additionally:
+To get the "after" result, do all of the above, and additionally:
 
 1. Check out and build:
     * [`babel@6bc10b5`](https://github.com/babel/babel/commit/6bc10b5573df7244170bc84840bad5d2fb992a7a)
