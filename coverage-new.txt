@@ -1,0 +1,29 @@
+
+> dummy@1.0.0 test-cov C:\Users\Moti Z\Documents\GitHub\dummy
+> cross-env BABEL_ENV=test npm run build && nyc --all node dist/a && nyc report --reporter text
+
+
+> dummy@1.0.0 build C:\Users\Moti Z\Documents\GitHub\dummy
+> babel src -d dist
+
+src\a.js -> dist\a.js
+src\b.js -> dist\b.js
+src\c.js -> dist\c.js
+b runs
+a runs
+----------|----------|----------|----------|----------|----------------|
+File      |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+----------|----------|----------|----------|----------|----------------|
+All files |       50 |        0 |        0 |       50 |                |
+ a.js     |      100 |      100 |      100 |      100 |                |
+ b.js     |      100 |      100 |      100 |      100 |                |
+ c.js     |        0 |        0 |        0 |        0 |            2,4 |
+----------|----------|----------|----------|----------|----------------|
+----------|----------|----------|----------|----------|----------------|
+File      |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+----------|----------|----------|----------|----------|----------------|
+All files |       50 |        0 |        0 |       50 |                |
+ a.js     |      100 |      100 |      100 |      100 |                |
+ b.js     |      100 |      100 |      100 |      100 |                |
+ c.js     |        0 |        0 |        0 |        0 |            2,4 |
+----------|----------|----------|----------|----------|----------------|
