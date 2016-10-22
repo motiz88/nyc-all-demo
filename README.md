@@ -81,4 +81,4 @@ To get the "after" result, do all of the above, and additionally:
   * `istanbul-lib-instrument` into `nyc`
   * `babel-plugin-instanbul` into this repo
   * `nyc` into this repo
-3. `npm run-test-cov`
+3. `npm run test-cov`
