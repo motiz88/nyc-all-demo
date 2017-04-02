@@ -1,6 +1,8 @@
 
 ### Before
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/motiz88/nyc-all-demo.svg)](https://greenkeeper.io/)
+
 ```
 > dummy@1.0.0 test-cov C:\Users\Moti Z\Documents\GitHub\dummy
 > cross-env BABEL_ENV=test npm run build && nyc --all node dist/a && nyc report --reporter text
